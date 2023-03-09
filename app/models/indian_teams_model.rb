@@ -1,0 +1,2 @@
+class IndianTeamsModel < ApplicationRecord
+end
