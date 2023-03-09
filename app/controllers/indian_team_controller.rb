@@ -21,7 +21,7 @@ class IndianTeamController < ApplicationController
     if team.save
       render json: team, status:ok 
       else
-      render json: "not create your data" 
+      render json: "not save data" 
     end
   end
 
